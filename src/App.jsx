@@ -24,7 +24,7 @@ function App() {
   return (
     <div className='max-w-6xl mx-auto'>
       <Header />
-      <div className='md:flex '>
+      <div className='md:flex'>
         <Blogs
           handleBookmark={handleBookmark}
           handleReadingTime={handleReadingTime}></Blogs>
